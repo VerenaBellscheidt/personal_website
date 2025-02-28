@@ -1,7 +1,7 @@
 /* Style for navigation bar */
 nav {
-    background-color: #FF0000;
-    padding: 10px;
+    background-color: #131d57;
+    padding: 100px;
 }
 
 /* Style for list items */
@@ -37,7 +37,7 @@ nav ul li a:hover {
 /* General Button Style */
 .button {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none; /* Remove underline */
