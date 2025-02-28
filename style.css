@@ -34,22 +34,27 @@ nav ul li a:hover {
 
 
 
-/* Basic Button Style */
+/* General Button Style */
 .button {
     display: inline-block;
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
+    color: white;
     text-align: center;
-    padding: 14px 20px; /* Add padding */
+    padding: 14px 20px;
     text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Rounded corners */
-    margin: 10px 0; /* Margin between buttons */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-weight: bold;
 }
 
-/* Hover Effect */
-.button:hover {
+/* Box-style Button */
+.button.box {
+    background-color: #4CAF50; /* Green background */
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.button.box:hover {
     background-color: #45a049; /* Darker green on hover */
+    border-color: #45a049; /* Darker border on hover */
 }
 
