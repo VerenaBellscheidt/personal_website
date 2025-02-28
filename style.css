@@ -1,0 +1,33 @@
+/* Style for navigation bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Style for list items */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Style for menu items */
+nav ul li {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Style for links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Change link color on hover */
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
