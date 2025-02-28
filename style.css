@@ -31,3 +31,25 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+
+
+
+/* Basic Button Style */
+.button {
+    display: inline-block;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 14px 20px; /* Add padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    margin: 10px 0; /* Margin between buttons */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
