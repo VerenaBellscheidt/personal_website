@@ -48,13 +48,13 @@ nav ul li a:hover {
 
 /* Box-style Button */
 .button.box {
-    background-color: #5d7d46; /* Color of button background */
-    border: 2px solid #FFFFFF; /* Color of border */
+    background-color: #FFFFFF; /* Color of button background */
+    border: 2px solid #000000; /* Color of border */
     border-radius: 10px; /* Slightly rounded corners */
 }
 
 .button.box:hover {
-    background-color: #45a049; /* Darker green on hover */
-    border-color: #45a049; /* Darker border on hover */
+    background-color: #FFFFFF; 
+    border-color: #000000; 
 }
 
