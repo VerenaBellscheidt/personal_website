@@ -1,7 +1,7 @@
 /* Style for navigation bar */
 nav {
     background-color: #131d57;
-    padding: 100px;
+    padding: 5px;
 }
 
 /* Style for list items */
@@ -49,12 +49,12 @@ nav ul li a:hover {
 /* Box-style Button */
 .button.box {
     background-color: #FFFFFF; /* Color of button background */
-    border: 2px solid #000000; /* Color of border */
-    border-radius: 10px; /* Slightly rounded corners */
+    border: 2px solid #571343; /* Color of border */
+    border-radius: 20px; /* Slightly rounded corners */
 }
 
 .button.box:hover {
     background-color: #FFFFFF; 
-    border-color: #000000; 
+    border-color: #571343; 
 }
 
