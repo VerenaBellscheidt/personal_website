@@ -6,7 +6,8 @@ nav {
     display: flex;
     justify-content: flex-end; /* Moves nav items to the right */
     background-color: #FFFFFF;
-    padding: 5px;
+    padding: 3px;
+    font-size: 20px;
 }
 
 /* Style for list items */
@@ -16,7 +17,7 @@ nav ul {
     padding: 0;
     display: flex;
     display: flex;
-    gap: 20px; /* Adds space between menu items */
+    gap: 15px; /* Adds space between menu items */
 }
 
 /* Style for menu items */
