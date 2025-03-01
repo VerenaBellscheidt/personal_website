@@ -5,7 +5,7 @@
 nav {
     display: flex;
     justify-content: flex-end; /* Moves nav items to the right */
-    background-color: #FF0000;
+    background-color: #FFFFFF;
     padding: 5px;
 }
 
