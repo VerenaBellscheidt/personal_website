@@ -1,5 +1,11 @@
 /* General style */
 
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; /* Centers the container */
+    padding: 0 20px; /* Adds small padding inside */
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     color: #962573;
