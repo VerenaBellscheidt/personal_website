@@ -27,14 +27,14 @@ nav ul li {
 
 /* Style for links */
 nav ul li a {
-    color: #571343;
+    color: #bc278e;
     text-decoration: none;
     padding: 10px 20px;
 }
 
 /* Change link color on hover */
 nav ul li a:hover {
-    color: #571343;
+    color: #bc278e;
     background-color: #575757;
     border-radius: 5px;
 }
@@ -58,7 +58,7 @@ nav ul li a:hover {
 
 /* Box-style Button */
 .button.box {
-    color: #571343;
+    color: #bc278e;
     background-color: #FFFFFF; /* Color of button background */
     border: 2px solid #571343; /* Color of border */
     border-radius: 20px; /* Slightly rounded corners */
