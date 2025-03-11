@@ -42,7 +42,12 @@ h2 {
 
 
 
-
+/* Images: default size */
+.text-image img {
+    width: 30%; 
+    max-width: 250px; 
+    height: auto;
+}
 
 
 
