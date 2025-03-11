@@ -48,6 +48,11 @@ h2 {
     max-width: 250px; 
     height: auto;
 }
+.text-image {
+    display: flex;  /* Makes text and image sit side by side */
+    align-items: center;  /* Aligns them vertically */
+    gap: 20px;  /* Adds spacing between text and image */
+}
 
 
 
