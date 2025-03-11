@@ -59,7 +59,20 @@ h2 {
 }
 .text-image img {
     max-width: 30%;  /* Adjusts image size relative to container */
-    height: auto;  /* Maintains aspect ratio */
+    width: 150px;  /* Adjust as needed */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+.text-content {
+    flex: 1;  /* Allows text to take remaining space */
+    max-width: 60%;  /* Prevents text from getting too wide */
+}
+
+/* Align all headings and text to start at the same position */
+.text-content h3,
+.text-content p {
+    margin: 0;  /* Remove default margins */
+    padding-left: 0;  /* Ensure alignment */
 }
 
 
