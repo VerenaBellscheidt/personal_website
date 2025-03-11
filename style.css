@@ -53,6 +53,14 @@ h2 {
     align-items: center;  /* Aligns them vertically */
     gap: 20px;  /* Adds spacing between text and image */
 }
+.text-image p {
+    flex: 1;  /* Makes text take available space */
+    max-width: 60%;  /* Limits text width */
+}
+.text-image img {
+    max-width: 30%;  /* Adjusts image size relative to container */
+    height: auto;  /* Maintains aspect ratio */
+}
 
 
 
