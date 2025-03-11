@@ -42,23 +42,14 @@ h2 {
 
 
 
-/* Images: default size */
-.text-image img {
-    width: 20%; 
-    max-width: 250px; 
-    height: auto;
-}
+/* Images */
 .text-image {
-    display: flex;  /* Makes text and image sit side by side */
-    align-items: center;  /* Aligns them vertically */
-    gap: 20px;  /* Adds spacing between text and image */
+    display: flex;  /* Arrange items side by side */
+    align-items: center;  /* Align image and text vertically */
+    gap: 20px;  /* Add spacing between image and text */
 }
-.text-image p {
-    flex: 1;  /* Makes text take available space */
-    max-width: 60%;  /* Limits text width */
-}
+
 .text-image img {
-    max-width: 30%;  /* Adjusts image size relative to container */
     width: 150px;  /* Adjust as needed */
     height: auto;  /* Maintain aspect ratio */
 }
