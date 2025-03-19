@@ -61,7 +61,7 @@ h3 {
 .text-image {
     display: flex;  /* Arrange items side by side */
     align-items: center;  /* Align image and text vertically */
-    gap: 20px;  /* Add spacing between image and text */
+    gap: 40px;  /* Add spacing between image and text */
 }
 
 .text-image img {
