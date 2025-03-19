@@ -40,6 +40,12 @@ h2 {
    font-size: 40px;
 }
 
+/* For centered text */
+.center-text {
+    text-align: center;
+}
+
+
 
 
 /* Images */
