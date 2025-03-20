@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two per row */
     gap: 20px;
-    /*max-width: 800px;*/ /* Ensures space for two columns */
+    max-width: 800px; /* Ensures space for two columns */
     margin: 0 auto; /* Centers the section */
 }
 
@@ -25,10 +25,8 @@
 
 
 /* Responsive: Change to 1 column on small screens */
-/*
 @media (max-width: 768px) {
     .news-section {
         grid-template-columns: 1fr;
     }
 }
-*/
