@@ -1,0 +1,12 @@
+.news-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two news per row */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+.news-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f9f
