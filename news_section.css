@@ -1,6 +1,6 @@
 .news-section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two per row */
+    grid-template-columns: repeat(2, 1fr) !important; /* Two per row */
     gap: 20px;
     /*max-width: 800px;*/ /* Ensures space for two columns */
     margin: 0 auto; /* Centers the section */
