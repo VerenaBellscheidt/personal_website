@@ -22,9 +22,12 @@
     margin-top: 10px;
 }
 
+
 /* Responsive: Change to 1 column on small screens */
+/*
 @media (max-width: 768px) {
     .news-section {
         grid-template-columns: 1fr;
     }
 }
+*/
